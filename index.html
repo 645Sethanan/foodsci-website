@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Science</title>
+    <!-- bootstrap & CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <!-- icons -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- navbar -->
+  <nav class="container-fluid bg-dark bg-gradient fixed-top">
+    <div class="row">
+      <!-- logo -->
+      <div class="col col-2">
+        <img class="nav-logo pt-1" src="./assets/RM_UTK_ราชมงคลกรุงเทพ2-01-300x128.jpg" alt="logo">
+      </div>
+      <!-- button for moblie-->
+        <div class="col col-10 btn-display flex-row-reverse btn-moblie"> 
+          <!-- button-->
+          <button class="btn " data-bs-toggle="collapse" data-bs-target="#collapse-btn">
+            <i class="fa-solid fa-bars" style="color: #f0f0f0; font-size: 3em; margin: 10px;"></i>
+          </button>
+        </div>
+      <!-- menu-collapse -->
+      <div id="collapse-btn" class="container-fluid bg-dark collapse">
+        <div class="row p-1">
+          <div class="col-sm col-12 d-flex justify-content-center">
+            <div style="width: auto;">
+              <button class="btn btn-success bg-gradient">หน้าแรก</button>
+              <button class="btn btn-success bg-gradient">หน้าแรก</button>
+              <button class="btn btn-success bg-gradient">หน้าแรก</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- menu for desktop -->
+      <div id="menu-desktop" class="col-5">
+        <div style="width: 500px;" class="d-flex justify-content-around">
+          <button class="btn btn-success btn-lg bg-gradient">หน้าแรก</button>
+          <button class="btn btn-success btn-lg bg-gradient">หน้าแรก</button>
+          <button class="btn btn-success btn-lg bg-gradient">หน้าแรก</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- website corousel -->
+  <div id="corousel"class="container-fluid pt-5" style="padding-left: 0px; padding-right: 0px; z-index: 1;">
+        
+    <div id="carouselExampleIndicators" class="carousel slide corousel-height">
+        <div class="carousel-indicators" style="z-index: 1;">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/ภาควิชา-04-2048x768.png" class="d-block news-img object-fit-fill w-100" alt="news1">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/ภาควิชา-04-2048x768.png" class="d-block news-img object-fit-fill w-100" alt="news2">
+          </div>
+          <div class="carousel-item">
+            <img  src="./assets/ภาควิชา-04-2048x768.png" class="d-block news-img object-fit-fill w-100" alt="news3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+  </div>
+
+  <!-- vedio introduction -->
+  <div class="container-fluid pt-3 pb-3">
+    <div class="row">
+      <!-- section left -->
+      <div class="col-sm-12 col-md-6">
+        <div id="set-height" class="container-fluid d-flex justify-content-center align-items-center ">
+          <iframe 
+            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ffstrmutk%2Fvideos%2F2459611587585128%2F&show_text=false&width=560&t=0" 
+            style="border:none;overflow:hidden;width: 100%;height: 100%;" 
+            scrolling="no" 
+            frameborder="0" 
+            allowfullscreen="true" 
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+            allowFullScreen="true"
+          >
+          </iframe>
+        </div>
+      </div>
+      <!-- section right -->
+      <div class="col-sm-12 col-md-6">
+        <div class="container-fluid">
+          <h2 class="text-success">แนะนำสาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร</h2>
+          <p style="text-indent: 2em;">แนะนำสาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร คณะเทคโนโลยีคหกรรมศาสตร์ มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container-fluid bg-dark bg-gradient">
+    <div class="row d-flex justify-content-center">
+      <div class="col-12 col-lg-5">
+        <div class="container-fluid m-3 ">
+          <div class="row">
+            <!-- map -->
+            <div class="col-12 col-md-6 d-flex justify-content-center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d124065.76375682055!2d100.45403778014756!3d13.65441115794603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z4Lij4Liy4LiK4Lih4LiH4LiE4Lil4LiB4Lij4Li44LiH4LmA4LiX4Lie!5e0!3m2!1sen!2sth!4v1692802368591!5m2!1sen!2sth" 
+                width="200" 
+                height="200" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <!-- contract addrass -->
+            <div class="col-12 col-md-6">
+              <h3 id="contract" style="color: white; text-decoration: underline;">ที่อยู่</h3>
+              <p style="color: white;">
+                  มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ
+                  เลขที่ 2 ถนนนางลิ้นจี่ แขวงทุ่งมหาเมฆ
+                  เขตสาทร กรุงเทพฯ 10120
+              </p>
+              <p style="color: white">โทรศัพท์   02-2879600 ต่อ 7251 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- java script -->
+    <script src="https://kit.fontawesome.com/8483b17b92.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

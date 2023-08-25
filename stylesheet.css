@@ -1,0 +1,72 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.nav-logo{
+
+    width: 10em;
+}
+
+.col{
+    padding: 0px;
+}
+
+.btn-display{
+    display: none;
+}
+
+#menu-desktop{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+#set-height{
+    height: 35vh;
+}
+
+/* for moblie & tablet */
+@media screen and (max-width: 320px) {
+    .btn-moblie{
+        display: flex;
+    }
+
+    #menu-desktop{
+        display: none;
+    }
+
+    #set-height{
+        height: 23vh;
+    }
+}
+
+/* for moblie & tablet */
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .btn-moblie{
+        display: flex;
+    }
+
+    #menu-desktop{
+        display: none;
+    }
+
+    #set-height{
+        height: 30vh;
+    }
+}
+
+/* for labtop L */
+@media screen and (min-width: 1439px) {
+    #set-height{
+        height: 50vh;
+    }
+}
+
+/* for 4k */
+@media screen and (min-width: 2559px) {
+    #set-height{
+        height: 90vh;
+    }
+}
