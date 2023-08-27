@@ -27,6 +27,12 @@ body{
     height: 35vh;
 }
 
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* for moblie & tablet */
 @media screen and (max-width: 320px) {
     .btn-moblie{
